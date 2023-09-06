@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jot</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+  <div class="body">
+    <header>
+      <h1><span class="logo">📝</span> <span class="logoTxt">JOT </span></h1>
+    </header>
+    <main>
+      <div class="intro">
+        <h3 class="introTxt">Taking notes, joting down memos, dates, events and important information easily all made effortless, fast and more efficient with <span class="introLogo">JOT</span></h3>
+        <!--<center>-->
+          <img class="introImg" src="img/images.jpeg" alt="A man typing on his phone" width="100%">
+          <h3 class="getTxt">Get Started</h3>
+          <center>
+            <a href="#firstView"><img src="img/im.png" alt="arrow" width="20%"></a>
+          </center>
+
+        <!--</center>-->
+      </div>
+      <div id="firstView">
+        .
+        <center>
+          <form id="form">
+            <h2 class="write">Write ✍️</h2>
+            <input type="text" placeholder="Author" id="authorName">
+            <input type="text" placeholder="Enter title...." id="titleBox">
+            <br>
+           <textarea placeholder="Enter note..." id="noteBox" cols="43" rows="18"></textarea>
+            <br>
+            <button class="submit"><a href="#saveNoteArea">Save note.</a></button>
+          </form>
+        </center>
+      </div>
+      
+      <div id="saveNoteArea">
+        <div class="contents">
+          <input type="text" placeholder="Search note.....">
+          <button>search</button>
+          <hr><br>
+          <h3 class="title">Title</h3>
+          <p class="noteBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et facilisis massa. Donec interdum magna vitae nisl tristique egestas. Praesent et ultricies metus, in auctor tortor. Nulla viverra sed massa sit amet mollis. Morbi volutpat quam vitae consequat posuere. Curabitur id lectus ac nisi cursus iaculis et at tortor. Nam ante tellus, luctus et tristique nec, faucibus feugiat lorem. Nulla tincidunt arcu id purus congue egestas. Sed congue interdum orci, ut tempor nisl gravida vel. Aenean velit ligula, commodo vel pulvinar sit amet, fringilla quis ipsum. Nulla in dapibus libero. Donec ornare mi ut euismod lobortis. Donec ex nisl, sollicitudin vitae ante eget, semper tempus nunc. Donec ut elementum enim. Suspendisse potenti. Vestibulum vehicula libero vestibulum bibendum varius.</p>
+          <small class="author">By: David</small>
+          <hr><br>
+          <h3 class="title">Title</h3>
+          <p class="noteBody">📚 Exciting News! 🌟
+          
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et facilisis massa. Donec interdum magna vitae nisl tristique egestas. Praesent et ultricies metus, in auctor tortor. Nulla viverra sed massa sit amet mollis. Morbi volutpat quam vitae consequat posuere. Curabitur id lectus ac nisi cursus iaculis et at tortor. Nam ante tellus, luctus et tristique nec, faucibus feugiat lorem. Nulla tincidunt arcu id purus congue egestas. Sed congue interdum orci, ut tempor nisl gravida vel. Aenean velit ligula, commodo vel pulvinar sit amet, fringilla quis ipsum. Nulla in dapibus libero. Donec ornare mi ut euismod lobortis. Donec ex nisl, sollicitudin vitae ante eget, semper tempus nunc. Donec ut elementum enim. Suspendisse potenti. Vestibulum vehicula libero vestibulum bibendum varius.
+          
+            </p>
+          <small class="author">By: David</small>
+        </div>
+        
+      </div>
+    </main>
+    <footer>
+      <p>Jot © <span id="copyYear"></span></p>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
